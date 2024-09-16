@@ -1,0 +1,97 @@
+footer {
+    width: 100%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+  }
+  .footer-data{
+    width: 100%;
+    max-width: 110rem;
+    display: flex;
+   flex-direction: column;
+   padding: 4.8rem 0px 2.2rem;
+  
+  }
+  .top-section{
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    
+  }
+  .top-section img{
+    height: 4.8rem;
+    width: 13.9rem;
+  }
+  .dropdowns{
+    gap: 15px;
+  }
+.top-section .dropdown-1 {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    padding: 0rem 0.7rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 0.6rem;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 200;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .dropdown-1 img{
+    height: 3rem;
+    width: auto;
+  }
+  
+  
+ .middle-section{
+    width: 100%;
+    cursor: pointer;
+ }
+.footer-links{
+    position: relative;
+    flex: 1;
+    max-width: 18.3333%;
+}
+.footer-title{
+    font-size: 14.5px;
+    text-decoration: none;
+    font-weight:500;
+    padding-bottom: 11px;
+    letter-spacing: 2.5px;
+}
+.footer-content{
+   color: gray;
+   font-size: 14px;
+   list-style-type: none; 
+}
+.footer-content li{
+    padding-bottom: 8px;
+}
+.socials ul{
+    font-size: 2rem;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 15px;
+}
+
+.buttons img{
+   width: 13.7rem;
+   height: 4rem;
+   margin-bottom: 11px;
+   
+}
+.middle-section{
+    margin-bottom: 4rem;
+}
+.bottum-section{
+    margin-top: 2rem;
+    font-size: 12.5px;
+    color: gray;
+    margin-bottom: 15px;
+}

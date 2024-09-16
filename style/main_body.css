@@ -1,0 +1,13 @@
+.main-body{
+    max-width: 110rem;
+    width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.cloumn{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,30 @@
+.option-section{
+    padding-top: 5rem;
+    width: 110rem;
+    margin: auto;
+}
+.option-title{
+    margin: 0px 0px 2rem;
+    color: rgb(54, 54, 54);
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500; 
+}
+
+.options{
+    display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  border-radius: 0.8rem;
+  padding: 2rem 2.4rem;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+}
+.option-desk{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(63, 62, 62);
+}

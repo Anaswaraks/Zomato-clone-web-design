@@ -1,0 +1,55 @@
+.localities-section .loc-title{
+    color: rgb(48, 48, 48);
+    font-size: 3.6rem;
+    font-weight: 200;
+    margin-bottom: 4rem;
+}
+
+.loc-title .loc-name{
+    font-weight: 500;
+}
+
+.localities-list{
+    display: flex;
+    flex-wrap: wrap; /*It does this by allowing flexbox items to wrap onto multiple lines instead of staying on a single line.*/
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.locality {
+    padding: 1.2rem 1.5rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(232, 232, 232);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow:0 3px 5px 3px rgba(150,150,150, 0.1) ;
+    width: 30%;
+    font-size: 1.6rem
+    
+}
+
+.locality-name{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.no-places{
+    color: rgb(76, 76, 76);
+}
+
+.locality .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+   gap: 10px;
+   font-size: 17px;
+    
+
+}
+

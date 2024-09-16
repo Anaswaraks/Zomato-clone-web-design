@@ -1,0 +1,91 @@
+.top{
+    position: relative;
+    height: calc(100vh - 30rem);
+    margin-bottom: 4rem;
+    min-height: 42rem;
+    max-height: 57rem;
+}
+.top .bg-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 30rem);
+  min-height: 42rem;
+  max-height: 57rem;
+  z-index: -1;
+  object-fit: cover;
+    
+    
+}
+
+.top .center-content{
+    position: absolute;
+    bottom: calc(50% - 11.1rem);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+.top .top-logo{
+    height: 6rem;
+    width: 30rem;
+    position: relative;
+}
+
+main h1{
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 200;
+  
+}
+
+main .city{
+    font-size: 36px;
+    font-weight: 500; 
+}
+.search_container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 50px;
+    align-items: center;
+    
+}
+
+.search_container input{
+    border: none;
+    
+    
+}
+.search_container > div{
+    display: flex;
+    align-items: center;
+}
+.search_container .location{
+    width:24rem ;
+    padding: 0 1rem;
+    justify-content: space-around;
+    
+}
+.search_container .vertical-line{
+    width: 0px;
+    height: 25px;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+.search_container .search-food{
+    width: 53rem;
+}
+.search-food input{
+    width: 100%;
+    padding-left: 11px;
+    font-size: 1.5rem;
+    
+}
